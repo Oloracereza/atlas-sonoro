@@ -1,0 +1,212 @@
+[
+  {
+    "id": "trip-hop",
+    "name": "Trip hop",
+    "shortDescription": "Sonido lento, cinematografico y melancolico nacido alrededor de Bristol en los noventa.",
+    "scene": "Bristol, Reino Unido, anos 90",
+    "characteristics": ["breakbeats lentos", "bajos profundos", "samples oscuros", "voces soul o spoken word"],
+    "keyArtists": ["Massive Attack", "Portishead", "Tricky"],
+    "keyRecords": ["Blue Lines", "Dummy", "Maxinquaye"],
+    "relatedGenreIds": ["downtempo", "bristol-sound", "instrumental-hip-hop", "illbient"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Trip_hop"},
+      {"label": "MusicBrainz", "url": "https://musicbrainz.org/tag/trip%20hop"}
+    ]
+  },
+  {
+    "id": "idm",
+    "name": "IDM",
+    "shortDescription": "Electronica abstracta de escucha atenta, con ritmos quebrados y diseno sonoro detallado.",
+    "scene": "Reino Unido y Europa, anos 90",
+    "characteristics": ["ritmos irregulares", "texturas digitales", "melodias ambiguas", "estructuras no bailables"],
+    "keyArtists": ["Aphex Twin", "Autechre", "Boards of Canada"],
+    "keyRecords": ["Selected Ambient Works 85-92", "Tri Repetae", "Music Has the Right to Children"],
+    "relatedGenreIds": ["glitch", "ambient-techno", "braindance", "drill-and-bass"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Intelligent_dance_music"},
+      {"label": "MusicBrainz", "url": "https://musicbrainz.org/tag/idm"}
+    ]
+  },
+  {
+    "id": "experimental-hip-hop",
+    "name": "Experimental hip hop",
+    "shortDescription": "Hip hop que rompe estructuras tradicionales con produccion abstracta, ruido o lirica poco convencional.",
+    "scene": "Estados Unidos y escena global, anos 90 en adelante",
+    "characteristics": ["beats abstractos", "collage sonoro", "rap no lineal", "influencias electronicas"],
+    "keyArtists": ["Death Grips", "clipping.", "JPEGMAFIA"],
+    "keyRecords": ["The Money Store", "CLPPNG", "Veteran"],
+    "relatedGenreIds": ["abstract-hip-hop", "industrial-hip-hop", "glitch-hop", "instrumental-hip-hop"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Experimental_hip_hop"},
+      {"label": "MusicBrainz", "url": "https://musicbrainz.org/tag/experimental%20hip%20hop"}
+    ]
+  },
+  {
+    "id": "downtempo",
+    "name": "Downtempo",
+    "shortDescription": "Electronica relajada y atmosferica, pensada para escuchar mas que para la pista.",
+    "scene": "Clubes chill-out y electronica global, anos 90",
+    "characteristics": ["tempo lento", "ambientes suaves", "beats discretos", "texturas lounge"],
+    "keyArtists": ["Thievery Corporation", "Zero 7", "Bonobo"],
+    "keyRecords": ["The Mirror Conspiracy", "Simple Things", "Black Sands"],
+    "relatedGenreIds": ["trip-hop", "ambient-techno", "illbient", "nu-jazz"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Downtempo"},
+      {"label": "MusicBrainz", "url": "https://musicbrainz.org/tag/downtempo"}
+    ]
+  },
+  {
+    "id": "glitch",
+    "name": "Glitch",
+    "shortDescription": "Musica construida con errores digitales, cortes, clicks y artefactos tecnologicos.",
+    "scene": "Electronica experimental, anos 90 y 2000",
+    "characteristics": ["clicks", "cortes digitales", "microsonidos", "errores como textura"],
+    "keyArtists": ["Oval", "Alva Noto", "Fennesz"],
+    "keyRecords": ["94diskont.", "Transform", "Endless Summer"],
+    "relatedGenreIds": ["idm", "microsound", "glitch-hop", "ambient-techno"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Glitch_(music)"},
+      {"label": "MusicBrainz", "url": "https://musicbrainz.org/tag/glitch"}
+    ]
+  },
+  {
+    "id": "ambient-techno",
+    "name": "Ambient techno",
+    "shortDescription": "Cruce entre techno y ambient: pulso electronico, profundidad espacial y atmosfera.",
+    "scene": "Reino Unido, Alemania y Detroit, anos 90",
+    "characteristics": ["pads extensos", "pulso suave", "repeticion hipnotica", "espacio sintetico"],
+    "keyArtists": ["The Orb", "Biosphere", "The Black Dog"],
+    "keyRecords": ["Adventures Beyond the Ultraworld", "Substrata", "Bytes"],
+    "relatedGenreIds": ["idm", "downtempo", "dub-techno", "glitch"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ambient_techno"},
+      {"label": "MusicBrainz", "url": "https://musicbrainz.org/tag/ambient%20techno"}
+    ]
+  },
+  {
+    "id": "bristol-sound",
+    "name": "Bristol sound",
+    "shortDescription": "Escena local que mezclo hip hop, dub, soul y electronica oscura en Bristol.",
+    "scene": "Bristol, Reino Unido, fines de los 80 y anos 90",
+    "characteristics": ["bajos dub", "tempo lento", "voces sombrias", "produccion cinematografica"],
+    "keyArtists": ["Massive Attack", "Portishead", "Smith & Mighty"],
+    "keyRecords": ["Blue Lines", "Dummy", "Bass Is Maternal"],
+    "relatedGenreIds": ["trip-hop", "downtempo", "dub-techno", "illbient"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Bristol_underground_scene"},
+      {"label": "MusicBrainz", "url": "https://musicbrainz.org/tag/bristol%20sound"}
+    ]
+  },
+  {
+    "id": "instrumental-hip-hop",
+    "name": "Instrumental hip hop",
+    "shortDescription": "Hip hop centrado en beats, samples y atmosfera sin depender de rap vocal.",
+    "scene": "Estados Unidos, Japon y Europa, anos 90 en adelante",
+    "characteristics": ["beats sampleados", "loops", "texturas jazzy", "estructura de beat tape"],
+    "keyArtists": ["DJ Shadow", "J Dilla", "Nujabes"],
+    "keyRecords": ["Endtroducing.....", "Donuts", "Modal Soul"],
+    "relatedGenreIds": ["trip-hop", "abstract-hip-hop", "lo-fi-hip-hop", "glitch-hop"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Instrumental_hip_hop"},
+      {"label": "MusicBrainz", "url": "https://musicbrainz.org/tag/instrumental%20hip%20hop"}
+    ]
+  },
+  {
+    "id": "abstract-hip-hop",
+    "name": "Abstract hip hop",
+    "shortDescription": "Hip hop introspectivo y poco convencional, con produccion densa o surreal.",
+    "scene": "Underground estadounidense, anos 90 y 2000",
+    "characteristics": ["letras cripticas", "beats atmosfericos", "samples raros", "estructura flexible"],
+    "keyArtists": ["cLOUDDEAD", "Aesop Rock", "Madvillain"],
+    "keyRecords": ["cLOUDDEAD", "Labor Days", "Madvillainy"],
+    "relatedGenreIds": ["experimental-hip-hop", "instrumental-hip-hop", "illbient", "lo-fi-hip-hop"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Alternative_hip_hop"},
+      {"label": "MusicBrainz", "url": "https://musicbrainz.org/tag/abstract%20hip%20hop"}
+    ]
+  },
+  {
+    "id": "glitch-hop",
+    "name": "Glitch hop",
+    "shortDescription": "Beats de hip hop procesados con cortes digitales, bajos pesados y textura glitch.",
+    "scene": "Electronica y beat scene, anos 2000",
+    "characteristics": ["beats sincopados", "edicion digital", "bajos marcados", "sonido fragmentado"],
+    "keyArtists": ["Prefuse 73", "The Glitch Mob", "Flying Lotus"],
+    "keyRecords": ["Vocal Studies + Uprock Narratives", "Drink the Sea", "Los Angeles"],
+    "relatedGenreIds": ["glitch", "experimental-hip-hop", "instrumental-hip-hop", "idm"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Glitch_hop"},
+      {"label": "MusicBrainz", "url": "https://musicbrainz.org/tag/glitch%20hop"}
+    ]
+  },
+  {
+    "id": "illbient",
+    "name": "Illbient",
+    "shortDescription": "Ambient urbano oscuro con dub, hip hop, ruido y collage experimental.",
+    "scene": "Nueva York, anos 90",
+    "characteristics": ["ambientes densos", "dub", "collage", "bajos subterraneos"],
+    "keyArtists": ["DJ Spooky", "Scorn", "We"],
+    "keyRecords": ["Songs of a Dead Dreamer", "Evanescence", "As Is"],
+    "relatedGenreIds": ["trip-hop", "downtempo", "abstract-hip-hop", "bristol-sound"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Illbient"},
+      {"label": "MusicBrainz", "url": "https://musicbrainz.org/tag/illbient"}
+    ]
+  },
+  {
+    "id": "dub-techno",
+    "name": "Dub techno",
+    "shortDescription": "Techno minimalista con ecos, reverbs y profundidad heredada del dub.",
+    "scene": "Berlin y Detroit, anos 90",
+    "characteristics": ["chords con delay", "pulso minimal", "reverb profunda", "repeticion gradual"],
+    "keyArtists": ["Basic Channel", "Deepchord", "Maurizio"],
+    "keyRecords": ["BCD", "Hash-Bar Loops", "M-Series"],
+    "relatedGenreIds": ["ambient-techno", "downtempo", "bristol-sound", "microsound"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Dub_techno"},
+      {"label": "MusicBrainz", "url": "https://musicbrainz.org/tag/dub%20techno"}
+    ]
+  },
+  {
+    "id": "microsound",
+    "name": "Microsound",
+    "shortDescription": "Electronica enfocada en particulas sonoras minusculas, granularidad y textura.",
+    "scene": "Academia y electronica experimental, anos 90 y 2000",
+    "characteristics": ["granularidad", "sonidos pequenos", "silencio activo", "detalle extremo"],
+    "keyArtists": ["Ryoji Ikeda", "Taylor Deupree", "Alva Noto"],
+    "keyRecords": ["+/-", "Stil.", "Xerrox Vol.1"],
+    "relatedGenreIds": ["glitch", "idm", "ambient-techno", "dub-techno"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Microsound"},
+      {"label": "MusicBrainz", "url": "https://musicbrainz.org/tag/microsound"}
+    ]
+  },
+  {
+    "id": "drill-and-bass",
+    "name": "Drill and bass",
+    "shortDescription": "Ritmos de drum and bass hiperfragmentados y programacion extrema cercana al IDM.",
+    "scene": "Reino Unido, anos 90",
+    "characteristics": ["breakbeats acelerados", "edicion hiperactiva", "bajos intensos", "humor digital"],
+    "keyArtists": ["Squarepusher", "Aphex Twin", "Plug"],
+    "keyRecords": ["Hard Normal Daddy", "Richard D. James Album", "Drum 'n' Bass for Papa"],
+    "relatedGenreIds": ["idm", "braindance", "glitch", "experimental-hip-hop"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Drill_%27n%27_bass"},
+      {"label": "MusicBrainz", "url": "https://musicbrainz.org/tag/drill%20and%20bass"}
+    ]
+  },
+  {
+    "id": "braindance",
+    "name": "Braindance",
+    "shortDescription": "Termino asociado a electronica imaginativa, compleja y emocional cercana al IDM.",
+    "scene": "Rephlex Records y Reino Unido, anos 90",
+    "characteristics": ["ritmos complejos", "melodias raras", "humor sintetico", "energia impredecible"],
+    "keyArtists": ["Aphex Twin", "Bogdan Raczynski", "µ-Ziq"],
+    "keyRecords": ["Drukqs", "Boku Mo Wakaran", "Lunatic Harness"],
+    "relatedGenreIds": ["idm", "drill-and-bass", "glitch", "ambient-techno"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Rephlex_Records"},
+      {"label": "MusicBrainz", "url": "https://musicbrainz.org/tag/braindance"}
+    ]
+  }
+]
