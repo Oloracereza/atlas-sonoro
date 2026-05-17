@@ -8,6 +8,7 @@ flutter_*.log
 build/
 coverage/
 .idea/
+.vscode/
 *.iml
 .tools/
 android/.gradle/
