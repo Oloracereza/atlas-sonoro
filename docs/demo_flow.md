@@ -1,11 +1,12 @@
 # Flujo de demo
 
-1. Abrir la app y mostrar la pantalla **Explorar**.
-2. Buscar `trip hop` y abrir la ficha.
-3. Tocar una conexion, por ejemplo `Downtempo` o `Bristol sound`.
-4. Guardar dos generos como favoritos.
-5. Entrar a **Favoritos** y mostrar la seleccion.
-6. Entrar a **Acerca de** y explicar que Firebase puede leer el catalogo desde Firestore, pero la app tambien funciona con el JSON local.
+1. Abrir la app y registrar una cuenta con email/contrasena.
+2. Mostrar la pantalla **Explorar**.
+3. Buscar `trip hop` y abrir la ficha.
+4. Tocar una conexion, por ejemplo `Downtempo` o `Bristol sound`.
+5. Guardar dos generos como favoritos.
+6. Entrar a **Favoritos** y mostrar la seleccion guardada para el usuario.
+7. Entrar a **Acerca de** y mostrar cerrar sesion/eliminar cuenta.
 
 ## Modulo futuro
 

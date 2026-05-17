@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'screens/home_shell.dart';
+import 'screens/auth_gate.dart';
 import 'theme/app_theme.dart';
 
 class AtlasSonoroApp extends StatelessWidget {
@@ -12,7 +12,7 @@ class AtlasSonoroApp extends StatelessWidget {
       title: 'Atlas Sonoro',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.dark,
-      home: const HomeShell(),
+      home: AuthGate(),
     );
   }
 }
