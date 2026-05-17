@@ -11,7 +11,7 @@ flutter pub get
 flutter run
 ```
 
-Si se quiere probar Firebase, se puede configurar un proyecto de Firebase y cargar el catalogo desde la pantalla **Acerca de**.
+Si se quiere probar Firebase, se puede configurar un proyecto de Firebase y precargar la coleccion `genres`.
 
 Si no hay Firebase configurado, la app usa el archivo local:
 

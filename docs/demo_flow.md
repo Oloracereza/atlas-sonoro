@@ -5,7 +5,7 @@
 3. Tocar una conexion, por ejemplo `Downtempo` o `Bristol sound`.
 4. Guardar dos generos como favoritos.
 5. Entrar a **Favoritos** y mostrar la seleccion.
-6. Entrar a **Acerca de** y explicar que Firebase puede cargar la semilla inicial en Firestore, pero la app tambien funciona con el JSON local.
+6. Entrar a **Acerca de** y explicar que Firebase puede leer el catalogo desde Firestore, pero la app tambien funciona con el JSON local.
 
 ## Modulo futuro
 

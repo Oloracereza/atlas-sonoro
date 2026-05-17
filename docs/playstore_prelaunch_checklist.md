@@ -13,7 +13,7 @@
 ## Pendientes obligatorios antes de enviar a revision
 
 1. Ejecutar `flutterfire configure` y usar un proyecto Firebase real.
-2. Crear Cloud Firestore y precargar los 15 generos antes de enviar a Play.
+2. Crear Cloud Firestore y precargar los 15 generos antes de enviar a Play, o mantener el respaldo local si todavia no se usara Firebase real.
 3. Completar Data safety en Play Console:
    - No personal data collected, si mantienes el MVP sin cuentas, anuncios ni analitica.
    - Data encrypted in transit: yes, por Firebase/HTTPS.
@@ -25,4 +25,4 @@
 
 ## Recomendacion para release
 
-Para Play Store, no publiques reglas de Firestore que permitan a cualquier usuario escribir en `genres`. Precarga el catalogo desde Firebase Console o un script administrativo y usa reglas de solo lectura para `genres`.
+Para Play Store, las reglas de Firestore quedan en solo lectura para `genres`. Si se necesita cambiar el catalogo, hazlo desde Firebase Console o con un script administrativo.
