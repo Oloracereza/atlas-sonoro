@@ -6,7 +6,7 @@
 4. Tocar una conexión, por ejemplo `Downtempo` o `Bristol sound`.
 5. Guardar dos géneros como favoritos.
 6. Entrar a **Favoritos** y mostrar la selección guardada para el usuario.
-7. Entrar a **Acerca de** y mostrar cerrar sesión/eliminar cuenta.
+7. Entrar a **Perfil** y mostrar cerrar sesión/eliminar cuenta.
 
 ## Módulo futuro
 

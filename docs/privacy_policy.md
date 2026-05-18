@@ -17,7 +17,7 @@ La app usa Firebase Authentication y Cloud Firestore para login y favoritos.
 
 El usuario puede eliminar su cuenta desde la app en:
 
-**Acerca de > Eliminar cuenta**
+**Perfil > Eliminar cuenta**
 
 Al eliminar la cuenta también se eliminan los favoritos guardados.
 

@@ -5,7 +5,7 @@ Atlas Sonoro permite eliminar la cuenta desde la app.
 Pasos:
 
 1. Iniciar sesión en la app.
-2. Entrar a **Acerca de**.
+2. Entrar a **Perfil**.
 3. Tocar **Eliminar cuenta**.
 4. Confirmar la eliminacion.
 

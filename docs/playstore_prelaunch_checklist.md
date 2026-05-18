@@ -24,7 +24,7 @@
 6. Generar un Android App Bundle de release con firma:
    `flutter build appbundle --release`.
 7. Revisar el reporte de Pre-launch en Play Console y corregir crashes, ANRs o problemas de compatibilidad.
-8. En Data deletion, declarar que la app permite eliminar cuenta dentro de **Acerca de > Eliminar cuenta**.
+8. En Data deletion, declarar que la app permite eliminar cuenta dentro de **Perfil > Eliminar cuenta**.
 9. Usar enlaces publicos para politica de privacidad y eliminacion de cuenta:
    - `docs/privacy_policy.md`
    - `docs/account_deletion.md`

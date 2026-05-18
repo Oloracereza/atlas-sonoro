@@ -56,7 +56,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return switch (code) {
       'email-already-in-use' => 'Ese correo ya está registrado.',
       'invalid-email' => 'Correo no válido.',
-      'operation-not-allowed' => 'Activa email/password en Firebase Auth.',
+      'operation-not-allowed' => 'El registro con correo no está activo.',
       'weak-password' => 'La contraseña debe tener al menos 6 caracteres.',
       'user-not-found' ||
       'wrong-password' ||

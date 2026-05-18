@@ -31,9 +31,9 @@ class FavoritesScreen extends StatelessWidget {
           if (genreSnapshot.hasError) {
             return const EmptyState(
               icon: Icons.cloud_off_outlined,
-              title: 'Firebase no esta listo',
+              title: 'No se pudieron cargar tus favoritos',
               message:
-                  'Revisa la configuracion de Firebase antes de subir la app.',
+                  'Revisa tu conexión e intenta de nuevo.',
             );
           }
 

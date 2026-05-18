@@ -50,6 +50,7 @@ class _HomeShellState extends State<HomeShell> {
             ProfileScreen(
               user: widget.user,
               favoritesService: _favoritesService,
+              favoriteCount: favoriteIds.length,
             ),
           ];
 
@@ -73,7 +74,7 @@ class _HomeShellState extends State<HomeShell> {
           NavigationDestination(
             icon: Icon(Icons.person_outline),
             selectedIcon: Icon(Icons.person),
-            label: 'Acerca de',
+            label: 'Perfil',
           ),
         ],
       ),

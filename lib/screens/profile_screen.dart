@@ -8,11 +8,13 @@ class ProfileScreen extends StatelessWidget {
   const ProfileScreen({
     required this.user,
     required this.favoritesService,
+    required this.favoriteCount,
     super.key,
   });
 
   final User user;
   final FavoritesService favoritesService;
+  final int favoriteCount;
 
   Future<void> _deleteAccount(BuildContext context) async {
     final confirmed = await showDialog<bool>(
@@ -54,7 +56,7 @@ class ProfileScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Acerca de')),
+      appBar: AppBar(title: const Text('Perfil')),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
@@ -65,19 +67,15 @@ class ProfileScreen extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'Atlas Sonoro',
+                    'Mi perfil',
                     style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                           fontWeight: FontWeight.w800,
                         ),
                   ),
                   const SizedBox(height: 8),
-                  const Text(
-                    'Wiki interactiva para explorar subgéneros musicales de nicho y sus conexiones.',
-                  ),
-                  const SizedBox(height: 8),
                   Text(
-                    user.email ?? 'Sesion activa',
-                    style: Theme.of(context).textTheme.bodySmall,
+                    user.email ?? 'Sesión activa',
+                    style: Theme.of(context).textTheme.bodyMedium,
                   ),
                 ],
               ),
@@ -91,24 +89,26 @@ class ProfileScreen extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'Catalogo',
+                    'Atlas Sonoro',
                     style: Theme.of(context).textTheme.titleLarge,
                   ),
                   const SizedBox(height: 8),
                   const Text(
-                    'La app puede leer el catálogo desde Cloud Firestore. Si Firebase no está configurado, usa los datos locales incluidos en la app.',
+                    'Una guía sencilla para explorar subgéneros musicales, ver artistas clave y saltar entre estilos relacionados.',
                   ),
                 ],
               ),
             ),
           ),
           const SizedBox(height: 12),
-          const Card(
+          Card(
             child: ListTile(
-              leading: Icon(Icons.bookmark_outline),
-              title: Text('Favoritos por cuenta'),
+              leading: const Icon(Icons.bookmark_outline),
+              title: const Text('Favoritos'),
               subtitle: Text(
-                'Tus favoritos se guardan en Firestore con tu usuario.',
+                favoriteCount == 1
+                    ? 'Tienes 1 género guardado.'
+                    : 'Tienes $favoriteCount géneros guardados.',
               ),
             ),
           ),
@@ -116,9 +116,9 @@ class ProfileScreen extends StatelessWidget {
           const Card(
             child: ListTile(
               leading: Icon(Icons.auto_stories_outlined),
-              title: Text('Módulo futuro'),
+              title: Text('Próxima idea'),
               subtitle: Text(
-                'Diario de descubrimiento: recomendar un subgénero del día y medir progreso.',
+                'Agregar un diario de descubrimiento para anotar nuevos géneros escuchados.',
               ),
             ),
           ),

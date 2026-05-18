@@ -38,9 +38,9 @@ class _ExploreScreenState extends State<ExploreScreen> {
           if (genreSnapshot.hasError) {
             return const EmptyState(
               icon: Icons.cloud_off_outlined,
-              title: 'Firebase no esta listo',
+              title: 'No se pudieron cargar los géneros',
               message:
-                  'Revisa la configuracion de Firebase antes de subir la app.',
+                  'Revisa tu conexión e intenta abrir la app de nuevo.',
             );
           }
 
@@ -48,9 +48,9 @@ class _ExploreScreenState extends State<ExploreScreen> {
           if (genres.isEmpty) {
             return const EmptyState(
               icon: Icons.library_music_outlined,
-              title: 'Catalogo vacio',
+              title: 'Todavía no hay géneros',
               message:
-                  'Carga la semilla inicial desde Perfil para empezar la demo.',
+                  'Agrega los datos iniciales para empezar la demo.',
             );
           }
 
