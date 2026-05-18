@@ -63,13 +63,13 @@ class _ExploreScreenState extends State<ExploreScreen> {
               TextField(
                 onChanged: (value) => setState(() => _query = value),
                 decoration: const InputDecoration(
-                  hintText: 'Buscar por genero, artista o escena',
+                  hintText: 'Buscar por género, artista o escena',
                   prefixIcon: Icon(Icons.search),
                 ),
               ),
               const SizedBox(height: 16),
               Text(
-                '${filtered.length} subgeneros',
+                '${filtered.length} subgéneros',
                 style: Theme.of(context).textTheme.titleMedium,
               ),
               const SizedBox(height: 8),

@@ -54,14 +54,14 @@ class _LoginScreenState extends State<LoginScreen> {
 
   String _messageFor(String code) {
     return switch (code) {
-      'email-already-in-use' => 'Ese correo ya esta registrado.',
-      'invalid-email' => 'Correo no valido.',
+      'email-already-in-use' => 'Ese correo ya está registrado.',
+      'invalid-email' => 'Correo no válido.',
       'operation-not-allowed' => 'Activa email/password en Firebase Auth.',
-      'weak-password' => 'La contrasena debe tener al menos 6 caracteres.',
+      'weak-password' => 'La contraseña debe tener al menos 6 caracteres.',
       'user-not-found' ||
       'wrong-password' ||
       'invalid-credential' =>
-        'Correo o contrasena incorrectos.',
+        'Correo o contraseña incorrectos.',
       _ => 'No se pudo entrar. Intenta de nuevo.',
     };
   }
@@ -98,7 +98,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     Text(
                       _isRegistering
                           ? 'Crea una cuenta para guardar tus favoritos.'
-                          : 'Entra para explorar y guardar generos.',
+                          : 'Entra para explorar y guardar géneros.',
                       textAlign: TextAlign.center,
                     ),
                     const SizedBox(height: 24),
@@ -121,7 +121,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       controller: _passwordController,
                       obscureText: true,
                       decoration: const InputDecoration(
-                        labelText: 'Contrasena',
+                        labelText: 'Contraseña',
                         prefixIcon: Icon(Icons.lock_outline),
                       ),
                       validator: (value) {

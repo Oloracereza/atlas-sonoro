@@ -20,7 +20,7 @@ class ProfileScreen extends StatelessWidget {
       builder: (context) => AlertDialog(
         title: const Text('Eliminar cuenta'),
         content: const Text(
-          'Se borraran tus favoritos y tu cuenta. Esta accion no se puede deshacer.',
+          'Se borrarán tus favoritos y tu cuenta. Esta acción no se puede deshacer.',
         ),
         actions: [
           TextButton(
@@ -43,7 +43,7 @@ class ProfileScreen extends StatelessWidget {
     } on FirebaseAuthException catch (error) {
       if (!context.mounted) return;
       final message = error.code == 'requires-recent-login'
-          ? 'Vuelve a iniciar sesion antes de eliminar la cuenta.'
+          ? 'Vuelve a iniciar sesión antes de eliminar la cuenta.'
           : 'No se pudo eliminar la cuenta.';
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text(message)),
@@ -72,7 +72,7 @@ class ProfileScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 8),
                   const Text(
-                    'Wiki interactiva para explorar subgeneros musicales de nicho y sus conexiones.',
+                    'Wiki interactiva para explorar subgéneros musicales de nicho y sus conexiones.',
                   ),
                   const SizedBox(height: 8),
                   Text(
@@ -96,7 +96,7 @@ class ProfileScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 8),
                   const Text(
-                    'La app puede leer el catalogo desde Cloud Firestore. Si Firebase no esta configurado, usa los datos locales incluidos en la app.',
+                    'La app puede leer el catálogo desde Cloud Firestore. Si Firebase no está configurado, usa los datos locales incluidos en la app.',
                   ),
                 ],
               ),
@@ -116,9 +116,9 @@ class ProfileScreen extends StatelessWidget {
           const Card(
             child: ListTile(
               leading: Icon(Icons.auto_stories_outlined),
-              title: Text('Modulo futuro'),
+              title: Text('Módulo futuro'),
               subtitle: Text(
-                'Diario de descubrimiento: recomendar un subgenero del dia y medir progreso.',
+                'Diario de descubrimiento: recomendar un subgénero del día y medir progreso.',
               ),
             ),
           ),
@@ -128,7 +128,7 @@ class ProfileScreen extends StatelessWidget {
               children: [
                 ListTile(
                   leading: const Icon(Icons.logout),
-                  title: const Text('Cerrar sesion'),
+                  title: const Text('Cerrar sesión'),
                   onTap: () => AuthService().signOut(),
                 ),
                 ListTile(

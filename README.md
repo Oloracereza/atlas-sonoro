@@ -1,17 +1,17 @@
 # Atlas Sonoro
 
-App hecha en Flutter para explorar subgeneros musicales.
+App hecha en Flutter para explorar subgéneros musicales.
 
-La idea es que funcione como una mini guia musical: puedes crear cuenta, buscar generos, ver informacion basica, abrir links externos, navegar a generos relacionados y guardar favoritos.
+La idea es que funcione como una mini guía musical: puedes crear cuenta, buscar géneros, ver información básica, abrir links externos, navegar a géneros relacionados y guardar favoritos.
 
-## Como correrla
+## Cómo correrla
 
 ```powershell
 flutter pub get
 flutter run
 ```
 
-Para usar login y favoritos hay que configurar Firebase Auth con email/contrasena y Cloud Firestore.
+Para usar login y favoritos hay que configurar Firebase Auth con email/contraseña y Cloud Firestore.
 
 Si no hay Firebase configurado, la app usa el archivo local:
 

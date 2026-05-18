@@ -48,7 +48,7 @@ async function main() {
 
   for (const genre of genres) {
     if (!genre.id) {
-      throw new Error("Hay un genero sin id en genres_seed.json");
+      throw new Error("Hay un género sin id en genres_seed.json");
     }
 
     const { id, ...data } = genre;
@@ -59,7 +59,7 @@ async function main() {
   }
 
   await batch.commit();
-  console.log(`Listo. Se subieron ${genres.length} generos a Firestore.`);
+  console.log(`Listo. Se subieron ${genres.length} géneros a Firestore.`);
 }
 
 main().catch((error) => {

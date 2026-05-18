@@ -44,9 +44,9 @@ class FavoritesScreen extends StatelessWidget {
           if (favorites.isEmpty) {
             return const EmptyState(
               icon: Icons.bookmark_border,
-              title: 'Sin favoritos todavia',
+              title: 'Sin favoritos todavía',
               message:
-                  'Guarda generos desde Explorar para armar tu biblioteca.',
+                  'Guarda géneros desde Explorar para armar tu biblioteca.',
             );
           }
 
