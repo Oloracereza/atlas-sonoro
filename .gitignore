@@ -20,3 +20,7 @@ android/app/upload-keystore.jks
 *.keystore
 .superpowers/
 .omx/
+node_modules/
+service-account*.json
+firebase-service-account*.json
+*serviceAccount*.json
